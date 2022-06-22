@@ -1,3 +1,4 @@
+import "container/heap"
 
 type Flight struct {
 	From  int
