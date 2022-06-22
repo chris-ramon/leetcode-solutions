@@ -1,3 +1,7 @@
+// **Complexity Analysis**
+// - Time: O(N^2 * log N), where N is the number of cities within the flights.
+// - Space: O(N^2), where N is the number of cities stored in the heap.
+
 import "container/heap"
 
 type Flight struct {
