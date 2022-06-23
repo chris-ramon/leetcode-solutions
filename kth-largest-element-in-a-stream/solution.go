@@ -1,5 +1,5 @@
 // Complexity Analysis
-// * Time: O(lN * Log N), where N is the size of given nums.
+// * Time: O(N * Log N), where N is the size of given nums.
 // * Space: O(N), where N is the size of given nums, max size of the priority queue.
 
 import "container/heap"
