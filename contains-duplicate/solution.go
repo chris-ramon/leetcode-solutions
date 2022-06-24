@@ -1,5 +1,5 @@
 // **Complexity Analysis**
-// * Time: O(N), where N is the lenght of the given nums.
+// * Time: O(N), where N is the length of the given nums.
 // * Space: O(N), where N is the max size of the map used to store the nums.
 
 func containsDuplicate(nums []int) bool {
