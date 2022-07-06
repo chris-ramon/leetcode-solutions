@@ -2,6 +2,8 @@
 // * Time: O(N * log N), where N is the size of the given box types.
 // * Space: O(N), where N is the size of the queue during the breadth-first search.
 
+import "sort"
+
 func maximumUnits(boxTypes [][]int, truckSize int) int {
 	sort.Slice(boxTypes, func(i, j int) bool {
 		return boxTypes[i][1] > boxTypes[j][1]
