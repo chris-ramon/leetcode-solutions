@@ -3,7 +3,7 @@
 // * Space: O(1), constant number of variables used.
 
 func canConstruct(ransomNote string, magazine string) bool {
-	letters := [27]int{}
+	letters := [26]int{}
 	for i := 0; i < len(magazine); i++ {
 		letters[magazine[i]%97]++
 	}
