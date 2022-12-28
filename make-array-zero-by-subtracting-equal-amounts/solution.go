@@ -24,3 +24,8 @@ func op(nums []int, idx int) {
 		nums[i] = nums[i] - num
 	}
 }
+
+/*
+TestCases
+[1,5,0,3,5]\n[0]\n[100,1,0]\n
+*/
