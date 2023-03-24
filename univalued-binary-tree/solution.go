@@ -1,3 +1,10 @@
+/*
+TestCases
+- Time: O(n), where n is the size of the tree.
+- Space: O(n), where n is the size of the callstack during the dfs.
+*/
+
+
 // @lc code=start
 /**
  * Definition for a binary tree node.
