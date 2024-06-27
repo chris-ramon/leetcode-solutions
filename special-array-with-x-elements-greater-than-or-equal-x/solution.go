@@ -1,3 +1,9 @@
+/*
+Complexity Analysis
+- Time: O(N * log N), where N is the size of the nums slice.
+- Space: O(N), where N is the size of the nums slice.
+*/
+
 package main
 
 import (

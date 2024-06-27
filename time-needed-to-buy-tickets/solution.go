@@ -1,3 +1,9 @@
+/*
+Complexity Analysis
+- Time: O(M ^ N), where M is the size of the tickets slice.
+- Space: O(1), constant variables used.
+*/
+
 package main
 
 import "fmt"
