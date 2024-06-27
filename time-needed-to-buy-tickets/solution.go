@@ -20,5 +20,5 @@ func timeRequiredToBuy(tickets []int, k int) int {
 func main() {
 	// fmt.Println(timeRequiredToBuy([]int{2, 3, 2}, 2))
 	// fmt.Println(timeRequiredToBuy([]int{2, 3, 2}, 2))
-	fmt.Println(timeRequiredToBuy([]int{5, 1, 1, 1}, 0))
+	fmt.Println(timeRequiredToBuy([]int{84, 49, 5, 24, 70, 77, 87, 8}, 3))
 }
