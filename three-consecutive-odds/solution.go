@@ -1,3 +1,9 @@
+/*
+Complexity Analysis:
+- Time: O(n), n size of the given array.
+- Space: O(1), constant number of variables used.
+*/
+
 func threeConsecutiveOdds(arr []int) bool {
     count := 0
     for i := 0; i < len(arr); i++ {
